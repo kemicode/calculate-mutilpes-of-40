@@ -1,0 +1,28 @@
+#Psuedocode
+#Start Program
+#Set counter to zero
+#define value of multiplier
+#define 'for' condition
+#Print output
+#if counter is equal to 6
+#count should start on a new line
+
+#End Program
+
+
+
+#start program
+#Set counter to zero
+counter = 0
+#define value of multiplier
+i = 40
+#define 'for' condition
+for i in reversed(range(0,999,40)):
+    counter += 1
+#Print output
+    print(i, end=(" " if counter < 6 else "\n"))
+    if counter == 6:
+        counter = 0
+        
+#End program
+          
